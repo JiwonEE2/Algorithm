@@ -39,7 +39,7 @@ def main():
                 content += "| ----- | ----- | ----- |\n"
             directories.append(directory)
 
-        problem_number = os.path.basename(os.path.dirname(root))  # 문제번호 폴더를 기반으로 설정
+        problem_number = category  # 문제번호
         problem_link = "-"
         concept_links = []  # 개념 파일 리스트
 
