@@ -9,26 +9,26 @@ HEADER = """#
 
 def main():
     content = HEADER
-
     root_categories = ["백준", "프로그래머스"]
-    for category in root_categories:
-        if not os.path.exists(category):
+
+    for root_category in root_categories:
+        if not os.path.isdir(root_category):
             continue
 
-        content += f"\n## 📚 {category}\n"
+        content += f"\n## 📚 {root_category}\n"
 
-        # 난이도 폴더들 (ex. Bronze, Silver)
-        for level in sorted(os.listdir(category)):
-            level_path = os.path.join(category, level)
-            if not os.path.isdir(level_path):
+        for difficulty in sorted(os.listdir(root_category)):
+            diff_path = os.path.join(root_category, difficulty)
+            if not os.path.isdir(diff_path):
                 continue
 
-            content += f"\n### 🚀 {level}\n"
+            content += f"\n<details>\n<summary>🚀 {difficulty}</summary>\n\n"
             content += "| 문제번호 | 링크 | 개념 |\n"
             content += "| -------- | ---- | ---- |\n"
 
-            for problem_number in sorted(os.listdir(level_path)):
-                problem_path = os.path.join(level_path, problem_number)
+            problem_dirs = sorted(os.listdir(diff_path))
+            for problem in problem_dirs:
+                problem_path = os.path.join(diff_path, problem)
                 if not os.path.isdir(problem_path):
                     continue
 
@@ -41,17 +41,14 @@ def main():
                         if file == "README.md":
                             problem_link = f"[문제 설명]({md_path})"
                         else:
-                            title = file[:-3]
+                            title = file[:-3]  # remove .md
                             concept_links.append(f"[{title}]({md_path})")
 
-                # 테이블 작성
-                content += "| {} | {} | {} |\n".format(
-                    problem_number,
-                    problem_link,
-                    concept_links[0] if concept_links else "-"
-                )
+                content += f"| {problem} | {problem_link} | {concept_links[0] if concept_links else '-'} |\n"
                 for concept in concept_links[1:]:
-                    content += "| | | {} |\n".format(concept)
+                    content += f"| | | {concept} |\n"
+
+            content += "\n</details>\n"
 
     with open("README.md", "w", encoding="utf-8") as fd:
         fd.write(content)
