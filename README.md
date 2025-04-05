@@ -4,7 +4,7 @@
 ## 📚 백준
 
 <details>
-<summary>🚀 Bronze</summary>
+<summary><strong>🚀 Bronze</strong></summary>
 
 | 문제번호 | 링크 | 개념 |
 | -------- | ---- | ---- |
