@@ -22,7 +22,7 @@ def main():
             if not os.path.isdir(diff_path):
                 continue
 
-            content += f"\n<details>\n<summary><strong>🚀 {difficulty}</strong></summary>\n\n"
+            content += f"\n<details>\n<summary><strong><h3>🚀 {difficulty}</h3></strong></summary>\n\n"
             content += "| 문제번호 | 링크 | 개념 |\n"
             content += "| -------- | ---- | ---- |\n"
 
