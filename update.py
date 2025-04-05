@@ -33,7 +33,7 @@ def main():
         if directory not in directories:
             if directory in ["백준", "프로그래머스"]:
                 content += "## 📚 {}\n".format(directory)
-            else if derectory in ["Bronze", "Silver", "Gold"]:
+            elif derectory in ["Bronze", "Silver", "Gold"]:
                 content += "### 🚀 {}\n".format(directory)
                 content += "| 문제번호 | 링크 | 개념 |\n"
                 content += "| ----- | ----- | ----- |\n"
