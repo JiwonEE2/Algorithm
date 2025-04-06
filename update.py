@@ -17,23 +17,23 @@ def main():
         if not os.path.isdir(site_path):
             continue
 
-        content += f"\n<details>\n<summary><strong>📚 {site}</strong></summary>\n\n"
+        content += f"\n## 📚 {site}\n"
 
         for difficulty in sorted(os.listdir(site_path)):
             diff_path = os.path.join(site_path, difficulty)
             if not os.path.isdir(diff_path):
                 continue
 
-            content += f"### 🚀 {difficulty}\n"
-            content += "| 문제번호 | 링크 | 개념 |\n"
-            content += "| -------- | ---- | ---- |\n"
+            content += f"<details>\n<summary><strong>🚀 {difficulty}</strong></summary>\n\n"
+            content += "| 문제번호 | 개념 |\n"
+            content += "| -------- | ---- |\n"
 
             for problem_number in sorted(os.listdir(diff_path)):
                 prob_path = os.path.join(diff_path, problem_number)
                 if not os.path.isdir(prob_path):
                     continue
 
-                problem_link = "-"
+                problem_display = problem_number
                 concept_links = []
 
                 for file in sorted(os.listdir(prob_path)):
@@ -44,20 +44,19 @@ def main():
                     md_path = parse.quote(file_path)
 
                     if file == "README.md":
-                        problem_link = f"[문제 설명]({md_path})"
+                        problem_display = f"[{problem_number}]({md_path})"
                     else:
-                        title = html.escape(file[:-3])  # .md 확장자 제거 후 HTML 이스케이프
+                        title = html.escape(file[:-3])  # <, > 같은 문자 처리
                         concept_links.append(f"[{title}]({md_path})")
 
-                # 표 작성
                 if concept_links:
-                    content += f"| {problem_number} | {problem_link} | {concept_links[0]} |\n"
+                    content += f"| {problem_display} | {concept_links[0]} |\n"
                     for concept in concept_links[1:]:
-                        content += f"|  |  | {concept} |\n"
+                        content += f"|  | {concept} |\n"
                 else:
-                    content += f"| {problem_number} | {problem_link} | - |\n"
+                    content += f"| {problem_display} | - |\n"
 
-        content += "\n</details>\n"
+            content += "\n</details>\n"
 
     with open("README.md", "w", encoding="utf-8") as fd:
         fd.write(content)
