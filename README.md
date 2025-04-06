@@ -8,8 +8,7 @@
 
 | 문제번호 | 링크 | 개념 |
 | -------- | ---- | ---- |
-| 1000. A＋B | [문제 설명](%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md) | [테스트 개념](%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B0%9C%EB%85%90.md) |
-| | | [테스트개념2](%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/%ED%85%8C%EC%8A%A4%ED%8A%B8%EA%B0%9C%EB%85%902.md) |
+| 1000. A＋B | [문제 설명](%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md) | - |
 | 1001. A－B | [문제 설명](%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/README.md) | - |
 | 1008. A／B | [문제 설명](%EB%B0%B1%EC%A4%80/Bronze/1008.%E2%80%85A%EF%BC%8FB/README.md) | - |
 | 10171. 고양이 | [문제 설명](%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/README.md) | - |
