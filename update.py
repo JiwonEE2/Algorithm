@@ -33,7 +33,8 @@ def main():
                 if not os.path.isdir(prob_path):
                     continue
 
-                problem_display = problem_number
+                display_title = problem_number
+                display_link = ""
                 concept_links = []
 
                 for file in sorted(os.listdir(prob_path)):
@@ -44,17 +45,29 @@ def main():
                     md_path = parse.quote(file_path)
 
                     if file == "README.md":
-                        problem_display = f"[{problem_number}]({md_path})"
+                        # 문제번호에서 점 앞 숫자만 링크 처리
+                        if '.' in problem_number:
+                            number_part, rest = problem_number.split('.', 1)
+                            display_link = f"[{number_part}]({md_path}).{html.escape(rest)}"
+                        else:
+                            display_link = f"[{problem_number}]({md_path})"
                     else:
-                        title = html.escape(file[:-3])  # <, > 같은 문자 처리
+                        title = html.escape(file[:-3])
                         concept_links.append(f"[{title}]({md_path})")
 
+                # 문제번호가 링크 포함되었는지 확인하고 대체
+                if display_link:
+                    display_cell = display_link
+                else:
+                    display_cell = html.escape(problem_number)
+
+                # 테이블에 작성
                 if concept_links:
-                    content += f"| {problem_display} | {concept_links[0]} |\n"
+                    content += f"| {display_cell} | {concept_links[0]} |\n"
                     for concept in concept_links[1:]:
                         content += f"|  | {concept} |\n"
                 else:
-                    content += f"| {problem_display} | - |\n"
+                    content += f"| {display_cell} | - |\n"
 
             content += "\n</details>\n"
 
