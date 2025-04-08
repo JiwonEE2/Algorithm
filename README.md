@@ -37,6 +37,7 @@
 | 25304 | [영수증](./%EB%B0%B1%EC%A4%80/Bronze/25304.%E2%80%85%EC%98%81%EC%88%98%EC%A6%9D/README.md) | - |
 | 25314 | [코딩은 체육과목 입니다](./%EB%B0%B1%EC%A4%80/Bronze/25314.%E2%80%85%EC%BD%94%EB%94%A9%EC%9D%80%E2%80%85%EC%B2%B4%EC%9C%A1%EA%B3%BC%EB%AA%A9%E2%80%85%EC%9E%85%EB%8B%88%EB%8B%A4/README.md) | - |
 | 2557 | [Hello World](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/README.md) | - |
+| 2576 | [홀수](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/README.md) | - |
 | 2588 | [곱셈](./%EB%B0%B1%EC%A4%80/Bronze/2588.%E2%80%85%EA%B3%B1%EC%85%88/README.md) | - |
 | 2739 | [구구단](./%EB%B0%B1%EC%A4%80/Bronze/2739.%E2%80%85%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md) | - |
 | 2752 | [세수정렬](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/README.md) | [&lt;algorithm&gt; - min, max](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/%3Calgorithm%3E%20-%20min%2C%20max.md) |
