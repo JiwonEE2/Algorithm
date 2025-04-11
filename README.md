@@ -10,6 +10,7 @@
 | 1000 | [A＋B](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md) | - |
 | 1001 | [A－B](./%EB%B0%B1%EC%A4%80/Bronze/1001.%E2%80%85A%EF%BC%8DB/README.md) | - |
 | 1008 | [A／B](./%EB%B0%B1%EC%A4%80/Bronze/1008.%E2%80%85A%EF%BC%8FB/README.md) | - |
+| 10093 | [숫자](./%EB%B0%B1%EC%A4%80/Bronze/10093.%E2%80%85%EC%88%AB%EC%9E%90/README.md) | - |
 | 10171 | [고양이](./%EB%B0%B1%EC%A4%80/Bronze/10171.%E2%80%85%EA%B3%A0%EC%96%91%EC%9D%B4/README.md) | - |
 | 10172 | [개](./%EB%B0%B1%EC%A4%80/Bronze/10172.%E2%80%85%EA%B0%9C/README.md) | - |
 | 10430 | [나머지](./%EB%B0%B1%EC%A4%80/Bronze/10430.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80/README.md) | - |
