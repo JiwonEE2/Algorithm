@@ -15,6 +15,7 @@
 | 10172 | [개](./%EB%B0%B1%EC%A4%80/Bronze/10172.%E2%80%85%EA%B0%9C/README.md) | - |
 | 10430 | [나머지](./%EB%B0%B1%EC%A4%80/Bronze/10430.%E2%80%85%EB%82%98%EB%A8%B8%EC%A7%80/README.md) | - |
 | 10718 | [We love kriii](./%EB%B0%B1%EC%A4%80/Bronze/10718.%E2%80%85We%E2%80%85love%E2%80%85kriii/README.md) | - |
+| 10804 | [카드 역배치](./%EB%B0%B1%EC%A4%80/Bronze/10804.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EC%97%AD%EB%B0%B0%EC%B9%98/README.md) | - |
 | 10869 | [사칙연산](./%EB%B0%B1%EC%A4%80/Bronze/10869.%E2%80%85%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/README.md) | - |
 | 10871 | [X보다 작은 수](./%EB%B0%B1%EC%A4%80/Bronze/10871.%E2%80%85X%EB%B3%B4%EB%8B%A4%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EC%88%98/README.md) | - |
 | 10926 | [？？！](./%EB%B0%B1%EC%A4%80/Bronze/10926.%E2%80%85%EF%BC%9F%EF%BC%9F%EF%BC%81/README.md) | - |
