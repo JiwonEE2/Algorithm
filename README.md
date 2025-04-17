@@ -62,3 +62,11 @@
 | 9498 | [시험 성적](./%EB%B0%B1%EC%A4%80/Bronze/9498.%E2%80%85%EC%8B%9C%ED%97%98%E2%80%85%EC%84%B1%EC%A0%81/README.md) | - |
 
 </details>
+<details>
+<summary><strong>🚀 Silver</strong></summary>
+
+| 문제번호 | 문제 | 개념 |
+| -------- | ----- | ---- |
+| 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | - |
+
+</details>
