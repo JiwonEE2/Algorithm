@@ -50,7 +50,7 @@
 | 2557 | [Hello World](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/README.md) | - |
 | 2562 | [최댓값](./%EB%B0%B1%EC%A4%80/Bronze/2562.%E2%80%85%EC%B5%9C%EB%8C%93%EA%B0%92/README.md) | - |
 | 2576 | [홀수](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/README.md) | [&lt;vector&gt; - vector](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/%3Cvector%3E%20-%20vector.md) |
-| 2577 | [숫자의 개수](./%EB%B0%B1%EC%A4%80/Bronze/2577.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md) | - |
+| 2577 | [숫자의 개수](./%EB%B0%B1%EC%A4%80/Bronze/2577.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md) | [char to int](./%EB%B0%B1%EC%A4%80/Bronze/2577.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/char%20to%20int.md) |
 | 2587 | [대표값2](./%EB%B0%B1%EC%A4%80/Bronze/2587.%E2%80%85%EB%8C%80%ED%91%9C%EA%B0%922/README.md) | - |
 | 2588 | [곱셈](./%EB%B0%B1%EC%A4%80/Bronze/2588.%E2%80%85%EA%B3%B1%EC%85%88/README.md) | - |
 | 2739 | [구구단](./%EB%B0%B1%EC%A4%80/Bronze/2739.%E2%80%85%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md) | - |
