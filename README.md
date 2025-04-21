@@ -69,7 +69,8 @@
 
 | 문제번호 | 문제 | 개념 |
 | -------- | ----- | ---- |
-| 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | [auto](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/auto.md) |
+| 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | [&lt;list&gt; - list](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/%3Clist%3E%20-%20list.md) |
+|  |  | [auto](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/auto.md) |
 |  |  | [iterator (반복자)](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/iterator%20%28%EB%B0%98%EB%B3%B5%EC%9E%90%29.md) |
 | 1475 | [방 번호](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/README.md) | [&lt;cmath&gt; - ceil, floor (올림, 내림)](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/%3Ccmath%3E%20-%20ceil%2C%20floor%20%28%EC%98%AC%EB%A6%BC%2C%20%EB%82%B4%EB%A6%BC%29.md) |
 
