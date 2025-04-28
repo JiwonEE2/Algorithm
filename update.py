@@ -4,27 +4,69 @@ import os
 import html
 from urllib import parse
 
-HEADER = """#
-# 백준, 프로그래머스 문제 풀이 목록
+HEADER = """<div align="center">
+
+![header](https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=150&section=header&text=Algorithm%20Study&fontSize=70&animation=fadeIn&fontColor=39FF14&desc=Problem%20Solving%20Repository&descSize=25&descAlignY=75)
+
+</div>
 """
 
+# 📊 Current Status 부분을 문자열로 작성
+CURRENT_STATUS = """
+<div align="center">
+  <h2>📊 Current Status</h2>  <!-- 제목을 HTML <h2> 태그로 감싸 크기 조정 -->
+</div>
+<p align="center">
+  <a href="https://solved.ac/profile/khkcejkms1"><img height="180em" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=khkcejkms1"/></a>
+</p>
+"""
+
+# 📚 References를 중앙 정렬하고 제목을 h2로 크기 조정하는 함수
+def add_references_section():
+    return """
+<div align="center">
+  <h2>📚 References</h2>
+</div>
+<p align="center">
+  <a href="https://blog.encrypted.gg/category/강좌/실전%20알고리즘"><img src="https://img.shields.io/badge/BaaaaaaaaaaarkingDog_Algorithm_Lecture-11B48A?style=flat-square&logo=Vimeo&logoColor=white"/></a>
+  <a href="https://www.acmicpc.net/"><img src="https://img.shields.io/badge/Baekjoon_Online_Judge-0076C0?style=flat-square&logo=Baidu&logoColor=white"/></a>
+</p>
+"""
+
+# 난이도별 이모지 매핑
+difficulty_emojis = {
+    "Bronze": "🥉",  # 동메달
+    "Silver": "🥈",  # 은메달
+    "Gold": "🥇",    # 금메달
+    "Platinum": "🏆",  # 트로피
+    "Diamond": "💎",  # 다이아몬드
+    "Ruby": "🌟"     # 루비 (별, 고급스러움 강조)
+}
+
 def main():
-    content = HEADER
+    content = HEADER + CURRENT_STATUS  # HEADER와 CURRENT_STATUS 합치기
     root_dirs = ["백준", "프로그래머스"]
+
+    # 난이도 순서 정의 (브론즈, 실버, 골드 순으로 정렬)
+    difficulty_order = ["Bronze", "Silver", "Gold", "Platinum", "Diamond", "Ruby"]
 
     for site in root_dirs:
         site_path = os.path.join(".", site)
         if not os.path.isdir(site_path):
             continue
 
-        content += f"\n## 📚 {site}\n"
+        # 📚 백준을 중앙 정렬하고 제목을 h2로 크기 조정
+        content += f"\n<div align='center'>\n<h2>📚 {site}</h2>\n</div>\n"
 
-        for difficulty in sorted(os.listdir(site_path)):
+        for difficulty in sorted(os.listdir(site_path), key=lambda x: difficulty_order.index(x) if x in difficulty_order else float('inf')):
             diff_path = os.path.join(site_path, difficulty)
             if not os.path.isdir(diff_path):
                 continue
 
-            content += f"<details>\n<summary><strong>🚀 {difficulty}</strong></summary>\n\n"
+            # 난이도별 이모지 추가
+            emoji = difficulty_emojis.get(difficulty, "🚀")
+
+            content += f"<details>\n<summary><strong>{emoji} {difficulty}</strong></summary>\n\n"
             content += "| 문제번호 | 문제 | 개념 |\n"
             content += "| -------- | ----- | ---- |\n"
 
@@ -71,6 +113,9 @@ def main():
                     content += f"| {display_number} | {display_problem} | - |\n"
 
             content += "\n</details>\n"
+
+        # 📚 References 섹션 추가
+        content += add_references_section()  # References 섹션을 함수로 추가
 
     with open("README.md", "w", encoding="utf-8") as fd:
         fd.write(content)
