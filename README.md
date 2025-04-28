@@ -1,9 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Algorithm Study Banner" width="500"/>
-
-<h1 style="font-family: 'Arial', sans-serif; color: #ff6347;">Algorithm Study Repository</h1>
-<p style="font-size: 20px; color: #2e8b57;">A collection of algorithm solutions and problem-solving techniques</p>
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Algorithm%20Study)
 
 </div>
 
