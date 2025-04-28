@@ -1,9 +1,21 @@
-#
-# 백준, 프로그래머스 문제 풀이 목록
+<div align="center">
 
-## 📚 백준
+![header](https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=150&section=header&text=Algorithm%20Study&fontSize=70&animation=fadeIn&fontColor=39FF14&desc=Problem%20Solving%20Repository&descSize=25&descAlignY=75)
+
+</div>
+
+<div align="center">
+  <h2>📊 Current Status</h2>  <!-- 제목을 HTML <h2> 태그로 감싸 크기 조정 -->
+</div>
+<p align="center">
+  <a href="https://solved.ac/profile/khkcejkms1"><img height="180em" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=khkcejkms1"/></a>
+</p>
+
+<div align='center'>
+<h2>📚 백준</h2>
+</div>
 <details>
-<summary><strong>🚀 Bronze</strong></summary>
+<summary><strong>🥉 Bronze</strong></summary>
 
 | 문제번호 | 문제 | 개념 |
 | -------- | ----- | ---- |
@@ -69,7 +81,7 @@
 
 </details>
 <details>
-<summary><strong>🚀 Silver</strong></summary>
+<summary><strong>🥈 Silver</strong></summary>
 
 | 문제번호 | 문제 | 개념 |
 | -------- | ----- | ---- |
@@ -82,3 +94,11 @@
 | 5397 | [키로거](./%EB%B0%B1%EC%A4%80/Silver/5397.%E2%80%85%ED%82%A4%EB%A1%9C%EA%B1%B0/README.md) | - |
 
 </details>
+
+<div align="center">
+  <h2>📚 References</h2>
+</div>
+<p align="center">
+  <a href="https://blog.encrypted.gg/category/강좌/실전%20알고리즘"><img src="https://img.shields.io/badge/BaaaaaaaaaaarkingDog_Algorithm_Lecture-11B48A?style=flat-square&logo=Vimeo&logoColor=white"/></a>
+  <a href="https://www.acmicpc.net/"><img src="https://img.shields.io/badge/Baekjoon_Online_Judge-0076C0?style=flat-square&logo=Baidu&logoColor=white"/></a>
+</p>
