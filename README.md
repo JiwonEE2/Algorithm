@@ -1,6 +1,9 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=150&section=header&text=Algorithm%20Study&fontSize=70&animation=fadeIn&fontColor=39FF14&desc=Problem%20Solving%20Repository&descSize=25&descAlignY=75)
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Algorithm Study Banner" width="500"/>
+
+<h1 style="font-family: 'Arial', sans-serif; color: #ff6347;">Algorithm Study Repository</h1>
+<p style="font-size: 20px; color: #2e8b57;">A collection of algorithm solutions and problem-solving techniques</p>
 
 </div>
 
@@ -8,7 +11,7 @@
   <h2>📊 Current Status</h2>  <!-- 제목을 HTML <h2> 태그로 감싸 크기 조정 -->
 </div>
 <p align="center">
-  <a href="https://solved.ac/profile/khkcejkms1"><img height="180em" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=khkcejkms1"/></a>
+  <a href="https://solved.ac/profile/ac13578"><img height="180em" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=ac13578"/></a>
 </p>
 
 <div align='center'>
