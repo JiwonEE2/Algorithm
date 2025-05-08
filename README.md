@@ -92,6 +92,7 @@
 | 문제번호 | 문제 | 개념 |
 | -------- | ----- | ---- |
 | 10828 | [스택](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/README.md) | [&lt;stack&gt; - stack](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/%3Cstack%3E%20-%20stack.md) |
+| 11650 | [좌표 정렬하기](./%EB%B0%B1%EC%A4%80/Silver/11650.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/README.md) | - |
 | 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | [&lt;list&gt; - list](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/%3Clist%3E%20-%20list.md) |
 |  |  | [auto](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/auto.md) |
 |  |  | [iterator (반복자)](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/iterator%20%28%EB%B0%98%EB%B3%B5%EC%9E%90%29.md) |
