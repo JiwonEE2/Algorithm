@@ -79,6 +79,7 @@
 | 2752 | [세수정렬](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/README.md) | [&lt;algorithm&gt; - min, max](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/%3Calgorithm%3E%20-%20min%2C%20max.md) |
 |  |  | [&lt;algorithm&gt; - sort](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/%3Calgorithm%3E%20-%20sort.md) |
 | 2753 | [윤년](./%EB%B0%B1%EC%A4%80/Bronze/2753.%E2%80%85%EC%9C%A4%EB%85%84/README.md) | - |
+| 2798 | [블랙잭](./%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD/README.md) | - |
 | 2884 | [알람 시계](./%EB%B0%B1%EC%A4%80/Bronze/2884.%E2%80%85%EC%95%8C%EB%9E%8C%E2%80%85%EC%8B%9C%EA%B3%84/README.md) | - |
 | 3003 | [킹， 퀸， 룩， 비숍， 나이트， 폰](./%EB%B0%B1%EC%A4%80/Bronze/3003.%E2%80%85%ED%82%B9%EF%BC%8C%E2%80%85%ED%80%B8%EF%BC%8C%E2%80%85%EB%A3%A9%EF%BC%8C%E2%80%85%EB%B9%84%EC%88%8D%EF%BC%8C%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EF%BC%8C%E2%80%85%ED%8F%B0/README.md) | - |
 | 30802 | [웰컴 키트](./%EB%B0%B1%EC%A4%80/Bronze/30802.%E2%80%85%EC%9B%B0%EC%BB%B4%E2%80%85%ED%82%A4%ED%8A%B8/README.md) | - |
