@@ -29,7 +29,7 @@
 | 10718 | [We love kriii](./%EB%B0%B1%EC%A4%80/Bronze/10718.%E2%80%85We%E2%80%85love%E2%80%85kriii/README.md) | - |
 | 10804 | [카드 역배치](./%EB%B0%B1%EC%A4%80/Bronze/10804.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EC%97%AD%EB%B0%B0%EC%B9%98/README.md) | [swap, reverse](./%EB%B0%B1%EC%A4%80/Bronze/10804.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EC%97%AD%EB%B0%B0%EC%B9%98/swap%2C%20reverse.md) |
 | 10807 | [개수 세기](./%EB%B0%B1%EC%A4%80/Bronze/10807.%E2%80%85%EA%B0%9C%EC%88%98%E2%80%85%EC%84%B8%EA%B8%B0/README.md) | - |
-| 10808 | [알파벳 개수](./%EB%B0%B1%EC%A4%80/Bronze/10808.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3%E2%80%85%EA%B0%9C%EC%88%98/README.md) | [char -&gt; int](./%EB%B0%B1%EC%A4%80/Bronze/10808.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3%E2%80%85%EA%B0%9C%EC%88%98/char%20-%3E%20int.md) |
+| 10808 | [알파벳 개수](./%EB%B0%B1%EC%A4%80/Bronze/10808.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3%E2%80%85%EA%B0%9C%EC%88%98/README.md) | [char To int](./%EB%B0%B1%EC%A4%80/Bronze/10808.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3%E2%80%85%EA%B0%9C%EC%88%98/char%20To%20int.md) |
 | 10818 | [최소， 최대](./%EB%B0%B1%EC%A4%80/Bronze/10818.%E2%80%85%EC%B5%9C%EC%86%8C%EF%BC%8C%E2%80%85%EC%B5%9C%EB%8C%80/README.md) | - |
 | 10869 | [사칙연산](./%EB%B0%B1%EC%A4%80/Bronze/10869.%E2%80%85%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/README.md) | - |
 | 10871 | [X보다 작은 수](./%EB%B0%B1%EC%A4%80/Bronze/10871.%E2%80%85X%EB%B3%B4%EB%8B%A4%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EC%88%98/README.md) | - |
@@ -75,15 +75,15 @@
 | 25314 | [코딩은 체육과목 입니다](./%EB%B0%B1%EC%A4%80/Bronze/25314.%E2%80%85%EC%BD%94%EB%94%A9%EC%9D%80%E2%80%85%EC%B2%B4%EC%9C%A1%EA%B3%BC%EB%AA%A9%E2%80%85%EC%9E%85%EB%8B%88%EB%8B%A4/README.md) | - |
 | 2557 | [Hello World](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/README.md) | - |
 | 2562 | [최댓값](./%EB%B0%B1%EC%A4%80/Bronze/2562.%E2%80%85%EC%B5%9C%EB%8C%93%EA%B0%92/README.md) | - |
-| 2576 | [홀수](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/README.md) | [&lt;vector&gt; - vector](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/%3Cvector%3E%20-%20vector.md) |
+| 2576 | [홀수](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/README.md) | [vector](./%EB%B0%B1%EC%A4%80/Bronze/2576.%E2%80%85%ED%99%80%EC%88%98/vector.md) |
 | 2577 | [숫자의 개수](./%EB%B0%B1%EC%A4%80/Bronze/2577.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md) | - |
 | 2587 | [대표값2](./%EB%B0%B1%EC%A4%80/Bronze/2587.%E2%80%85%EB%8C%80%ED%91%9C%EA%B0%922/README.md) | - |
 | 2588 | [곱셈](./%EB%B0%B1%EC%A4%80/Bronze/2588.%E2%80%85%EA%B3%B1%EC%85%88/README.md) | - |
 | 2609 | [최대공약수와 최소공배수](./%EB%B0%B1%EC%A4%80/Bronze/2609.%E2%80%85%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/README.md) | - |
 | 2675 | [문자열 반복](./%EB%B0%B1%EC%A4%80/Bronze/2675.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EB%B0%98%EB%B3%B5/README.md) | - |
 | 2739 | [구구단](./%EB%B0%B1%EC%A4%80/Bronze/2739.%E2%80%85%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md) | - |
-| 2752 | [세수정렬](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/README.md) | [&lt;algorithm&gt; - min, max](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/%3Calgorithm%3E%20-%20min%2C%20max.md) |
-|  |  | [&lt;algorithm&gt; - sort](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/%3Calgorithm%3E%20-%20sort.md) |
+| 2752 | [세수정렬](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/README.md) | [algorithm - min, max](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/algorithm%20-%20min%2C%20max.md) |
+|  |  | [algorithm - sort](./%EB%B0%B1%EC%A4%80/Bronze/2752.%E2%80%85%EC%84%B8%EC%88%98%EC%A0%95%EB%A0%AC/algorithm%20-%20sort.md) |
 | 2753 | [윤년](./%EB%B0%B1%EC%A4%80/Bronze/2753.%E2%80%85%EC%9C%A4%EB%85%84/README.md) | - |
 | 27866 | [문자와 문자열](./%EB%B0%B1%EC%A4%80/Bronze/27866.%E2%80%85%EB%AC%B8%EC%9E%90%EC%99%80%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4/README.md) | - |
 | 2798 | [블랙잭](./%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD/README.md) | - |
@@ -102,14 +102,14 @@
 
 | 문제번호 | 문제 | 개념 |
 | -------- | ----- | ---- |
-| 10828 | [스택](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/README.md) | [&lt;stack&gt; - stack](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/%3Cstack%3E%20-%20stack.md) |
+| 10828 | [스택](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/README.md) | [stack](./%EB%B0%B1%EC%A4%80/Silver/10828.%E2%80%85%EC%8A%A4%ED%83%9D/stack.md) |
 | 10845 | [큐](./%EB%B0%B1%EC%A4%80/Silver/10845.%E2%80%85%ED%81%90/README.md) | - |
 | 11650 | [좌표 정렬하기](./%EB%B0%B1%EC%A4%80/Silver/11650.%E2%80%85%EC%A2%8C%ED%91%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/README.md) | - |
 | 11866 | [요세푸스 문제 0](./%EB%B0%B1%EC%A4%80/Silver/11866.%E2%80%85%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4%E2%80%85%EB%AC%B8%EC%A0%9C%E2%80%850/README.md) | - |
-| 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | [&lt;list&gt; - list](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/%3Clist%3E%20-%20list.md) |
-|  |  | [auto](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/auto.md) |
+| 1406 | [에디터](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/README.md) | [auto](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/auto.md) |
 |  |  | [iterator (반복자)](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/iterator%20%28%EB%B0%98%EB%B3%B5%EC%9E%90%29.md) |
-| 1475 | [방 번호](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/README.md) | [&lt;cmath&gt; - ceil, floor (올림, 내림)](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/%3Ccmath%3E%20-%20ceil%2C%20floor%20%28%EC%98%AC%EB%A6%BC%2C%20%EB%82%B4%EB%A6%BC%29.md) |
+|  |  | [list](./%EB%B0%B1%EC%A4%80/Silver/1406.%E2%80%85%EC%97%90%EB%94%94%ED%84%B0/list.md) |
+| 1475 | [방 번호](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/README.md) | [cmath - ceil, floor (올림, 내림)](./%EB%B0%B1%EC%A4%80/Silver/1475.%E2%80%85%EB%B0%A9%E2%80%85%EB%B2%88%ED%98%B8/cmath%20-%20ceil%2C%20floor%20%28%EC%98%AC%EB%A6%BC%2C%20%EB%82%B4%EB%A6%BC%29.md) |
 | 2751 | [수 정렬하기 2](./%EB%B0%B1%EC%A4%80/Silver/2751.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0%E2%80%852/README.md) | - |
 | 2839 | [설탕 배달](./%EB%B0%B1%EC%A4%80/Silver/2839.%E2%80%85%EC%84%A4%ED%83%95%E2%80%85%EB%B0%B0%EB%8B%AC/README.md) | - |
 | 3273 | [두 수의 합](./%EB%B0%B1%EC%A4%80/Silver/3273.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9/README.md) | - |
