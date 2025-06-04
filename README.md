@@ -116,6 +116,7 @@
 | 2839 | [설탕 배달](./%EB%B0%B1%EC%A4%80/Silver/2839.%E2%80%85%EC%84%A4%ED%83%95%E2%80%85%EB%B0%B0%EB%8B%AC/README.md) | - |
 | 3273 | [두 수의 합](./%EB%B0%B1%EC%A4%80/Silver/3273.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9/README.md) | - |
 | 5397 | [키로거](./%EB%B0%B1%EC%A4%80/Silver/5397.%E2%80%85%ED%82%A4%EB%A1%9C%EA%B1%B0/README.md) | - |
+| 9012 | [괄호](./%EB%B0%B1%EC%A4%80/Silver/9012.%E2%80%85%EA%B4%84%ED%98%B8/README.md) | - |
 
 </details>
 
