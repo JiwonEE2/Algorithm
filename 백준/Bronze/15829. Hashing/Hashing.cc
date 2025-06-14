@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 string s;
-int L, a;
-long long b;
+int L;
+unsigned long long a, b;
 int main()
 {
 	ios::sync_with_stdio(0);
@@ -12,7 +12,11 @@ int main()
 	{
 		a = s[i] + 1 - 'a';
 		for (int j = 0; j < i; j++)
+		{
 			a *= 31;
+			if (a > 1234567891)
+				a %= 1234567891;
+		}
 		b += a;
 	}
 	cout << b % 1234567891;
